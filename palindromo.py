@@ -4,7 +4,7 @@ es una palabra que se lee igual en un sentido que en otro
 se utiliza una lista y sus propiedades extend y reverse
 """
 def palindromo(palabra):
-    palabra=input("Igresa una palabra: ")
+    palabra=input("Ingresa una palabra: ")
     lista=[]
     lista.extend(palabra)
     lista.reverse()
